@@ -8,7 +8,7 @@ import { createCustomMarker } from "../helpers/createCustomMarker";
 export const useMap = () => {
 
     // CONFIGURE THE MAPBOX ACCESS TOKEN //
-    mapboxgl.accessToken = "pk.eyJ1IjoicmFuZHloeXRlY2giLCJhIjoiY204ZzltZHhlMGtuNDJqb2lpdzlqdTl4aSJ9.tpQNO6zp8N7tgvkCuHpvhw";
+    mapboxgl.accessToken = "";
     const mapContainer = ref<HTMLDivElement | null>();
     const map = ref<mapboxgl.Map | null>();
 
