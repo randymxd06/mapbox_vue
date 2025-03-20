@@ -1,5 +1,31 @@
-# Vue 3 + TypeScript + Vite
+# Mapbox Vue
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is a test project in which I am testing the mapbox library in conjunction with vue.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Project Setup
+
+### 1. Install the necessary dependencies
+
+```bash
+pnpm install
+```
+
+### 2. Create an access token in mapbox
+
+[Mapbox Access Tokens](https://console.mapbox.com/account/access-tokens/)
+
+### 3. Put the access token on the following line in the file `src\composables\useMap.ts`
+
+```ts
+mapboxgl.accessToken = "";
+```
+
+### 4. Run the project
+
+```bash
+pnpm dev
+```
+
+### If you want to change the map style (Optional)
+
+[Mapbox styles](https://docs.mapbox.com/api/maps/styles/)
